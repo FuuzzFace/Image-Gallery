@@ -1,0 +1,43 @@
+body { padding-top: 70px;}
+.jumbotron {
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+.navbar-inverse{ 
+    background-color: #2c3e50;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white; 
+ }
+.navbar-brand { color: white;}
+.navbar-inverse .navbar-brand{
+    color:white;
+}
+.co {color: white;
+     font-size: 23px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 1000px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-inverse .btn-link {
+    color: white;
+    padding-top: 15px;
+    margin-right: 7px;
+    font-size: 18px;
+}
